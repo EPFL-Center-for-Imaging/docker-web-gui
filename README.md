@@ -20,7 +20,7 @@ Before you follow below steps to start the app, make sure you have `node` and `n
 
 - To build the image:
     ```
-    docker build -t $(whoami)/$(basename ${PWD}):latest
+    docker build -t $(whoami)/$(basename ${PWD}):latest .
     ```
 - To run the image:
     ```
